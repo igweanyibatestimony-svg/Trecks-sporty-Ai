@@ -1,4 +1,3 @@
-
 {
   "name": "oraclex",
   "version": "1.0.0",
@@ -6,8 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "postinstall": "node scripts/init-db.js"
+    "start": "next start"
+  },
+  "engines": {
+    "node": "20.x"
   },
   "dependencies": {
     "@neondatabase/serverless": "^0.9.0",
